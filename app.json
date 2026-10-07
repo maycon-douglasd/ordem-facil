@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ordem-facil",
+    "name": "Ordem Fácil",
     "slug": "ordem-facil",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,23 +8,33 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1D4ED8"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1D4ED8"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.maycondouglas.ordemfacil"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b6c54c85-43fc-49b4-80b7-0893a07aabd1"
+      }
+    },
+    "owner": "maycondouglass-team"
   }
 }
